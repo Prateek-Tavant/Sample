@@ -1,0 +1,68 @@
+.box {
+    width: 600px;
+    padding: 30px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+div.animation_box {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 8s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        left: 50px;
+        top: 0px;
+    }
+    50% {
+        left: 100px;
+        top: 0px;
+    }
+    75% {
+        left: 50px;
+        top: 0px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.navitems ul {
+    margin-left: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    padding-left: 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}

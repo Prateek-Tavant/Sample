@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style1.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo_text">
+            <img src="./assets/logo.png" alt="">
+            <p>Cars for All</p>
+        </div>
+        <div class="navitems">
+            <ul>
+                <li> <a href="#" style="color: red;"> About us</a></li>
+                <li> <a href="../registration.html" style="color:red;"> Register</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="subheader">
+        <div class="time_and_button">
+            <div id="time">
+
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="text_side">
+            <p>Volkswagen Passenger Cars, a division of Skoda Auto Volkswagen India Private Limited (“Volkswagen”) places cookies on your computer when you visit our websites. You can determine the extent to which cookies are enabled or disabled by means
+                of settings on your computer (usually in your Web browser, such as Internet Explorer; for more details refer to the Technical Requirements section). Volkswagen assumes that you agree to cookies being placed on your computer if your browser
+                is set to allow them. With regard to data protection please refer to our Data Protection Declaration under “Legal Statement”.</p>
+            <p>Volkswagen Passenger Cars, a division of Skoda Auto Volkswagen India Private Limited (“Volkswagen”) places cookies on your computer when you visit our websites. You can determine the extent to which cookies are enabled or disabled by means
+                of settings on your computer (usually in your Web browser, such as Internet Explorer; for more details refer to the Technical Requirements section). Volkswagen assumes that you agree to cookies being placed on your computer if your browser
+                is set to allow them. With regard to data protection please refer to our Data Protection Declaration under “Legal Statement”.</p>
+        </div>
+        <div class="animation_video_audio_side">
+            <div class="animation_box">
+                <img src="car.png" style="width: 80px; height: 50px;">
+            </div>
+            <div class="video_box">
+                <h1>video</h1>
+                <video src="./assets/song.mp4" controls></video>
+            </div>
+            <div class="audio_box">
+                <h1>Audio</h1>
+                <audio src="./assets/mysong.mp3" controls></audio>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <form action="">
+            <img src="https://www.hdnicewallpapers.com/Walls/Big/Ferrari/Superb_Photo_of_Blue_Ferrari_Car.jpg" style="width: 100px; height: 60px;margin-left: -300px;">
+            <label for="">Name:</label>
+            <input type="text" placeholder="Enter name" name="" id="name">
+
+            <label for="">Email:</label>
+            <input type="email" placeholder="abc@gmail.com" name="" id="email">
+            <button type="button" onclick="validate()">submit</button><br>
+            <span class="user" style="color: red; display: none;" id="err1">Enter valid name</span>
+            <span class="user" style="color: red; display: none;" id="err2">Enter valid email</span>
+
+        </form>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

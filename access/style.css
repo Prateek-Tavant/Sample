@@ -1,0 +1,13 @@
+body {
+    box-sizing: border-box;
+    width: 50%;
+    border: 50px solid black;
+    float: left;
+    align-content: center;
+    align-items: left;
+}
+
+form {
+    margin: 0 auto;
+    width: 100px;
+}
